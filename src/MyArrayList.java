@@ -52,10 +52,12 @@ public class MyArrayList
      * subsequent integers to the left (subtracts one from their indices).
      * @pre index is within bounds, that is 0 <= index < list.size()
      * @param index the index of the element to remove
+     * @return the element that was removed from the list
      */
-    public void remove(int index)
+    public int remove(int index)
     {
-        // your code here
+        // REPLACE the code here
+        return 0;
     }
 
     /**
