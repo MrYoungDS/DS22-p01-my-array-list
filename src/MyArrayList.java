@@ -1,5 +1,5 @@
 /**
- * The MyArrayList class is the implementation of an array list of integers.
+ * The myArrayList class is the implementation of an array list of integers.
  *
  * The data in the list will be stored in an array, and the basic ArrayList methods
  * add, remove, set, get, and size will be implemented, as well as the additional
@@ -110,6 +110,7 @@ public class MyArrayList
     /**
      * Removes all of the elements from this list. The list will be empty after this
      * call returns.
+     * @post the capacity of the array should not change
      */
     public void clear()
     {
