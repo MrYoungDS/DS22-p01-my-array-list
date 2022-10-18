@@ -105,7 +105,7 @@ public class MyArrayListTester
         // large test
         final int LOW_SIZE = 100;
         final int RANGE_SIZE = 20;
-        final int LOW_VAL = 200;
+        final int LOW_VAL = -200;
         final int RANGE_VAL = 500;
         int n = (int)(LOW_SIZE + Math.random() * RANGE_SIZE);
         ArrayList<Integer> testList = new ArrayList<Integer>();
